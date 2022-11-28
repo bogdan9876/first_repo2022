@@ -1,0 +1,13 @@
+#include <stdio.h>
+
+#include <math.h>
+
+int main() {
+  float x = 2.134;
+  float y = 0.129;
+  float result;
+  result = (x*y+ pow(x,2)*pow(y,2))/tan(pow(x,5)*pow(y,5))-cos(x*y)+x*pow(y,5/6)+x*173.11;
+ 
+  printf("%f", result);
+  return 0;
+}
